@@ -1,0 +1,30 @@
+body {
+    background-image: url(/images/Lumine_piano.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar {
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s;
+}
+
+.sidebar:hover {
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 12%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.35s;
+}
